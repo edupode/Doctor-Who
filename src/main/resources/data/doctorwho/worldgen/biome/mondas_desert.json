@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:worldgen/biome",
+  "name": "Mondas Desert",
+  "precipitation": "none",
+  "temperature": 0.9,
+  "downfall": 0.1,
+  "effects": {
+    "sky_color": 10517990,
+    "fog_color": 10517990,
+    "water_color": 3722052,
+    "water_fog_color": 10517990,
+    "grass_color": 3722052,
+    "foliage_color": 3722052
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "doctorwho:cyberman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ]
+  }
+}

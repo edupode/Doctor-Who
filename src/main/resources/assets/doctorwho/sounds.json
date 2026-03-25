@@ -1,0 +1,40 @@
+{
+  "format_version": "1.20",
+  "sounds": {
+    "doctorwho:exterminate": {
+      "sounds": [
+        "doctorwho:exterminate"
+      ]
+    },
+    "doctorwho:tardis_travel": {
+      "sounds": [
+        "doctorwho:tardis_travel"
+      ]
+    },
+    "doctorwho:sonic_screwdriver": {
+      "sounds": [
+        "doctorwho:sonic_screwdriver"
+      ]
+    },
+    "doctorwho:angel_chase": {
+      "sounds": [
+        "doctorwho:angel_chase"
+      ]
+    },
+    "doctorwho:cyberman_upgrade": {
+      "sounds": [
+        "doctorwho:cyberman_upgrade"
+      ]
+    },
+    "doctorwho:time_lord_greeting": {
+      "sounds": [
+        "doctorwho:time_lord_greeting"
+      ]
+    },
+    "doctorwho:sontaran_attack": {
+      "sounds": [
+        "doctorwho:sontaran_attack"
+      ]
+    }
+  }
+}

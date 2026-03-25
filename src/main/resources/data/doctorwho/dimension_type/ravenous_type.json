@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:dimension_type",
+  "name": "Ravenous",
+  "element": {
+    "type": "minecraft:overworld",
+    "generator": {
+      "type": "minecraft:noise",
+      "settings": "minecraft:nether",
+      "biome_source": {
+        "type": "minecraft:multi_noise",
+        "biomes": [
+          {
+            "biome": "doctorwho:ravenous_void",
+            "parameters": {
+              "temperature": 0.5,
+              "humidity": 0.5,
+              "altitude": 0.0,
+              "weirdness": 0.0,
+              "offset": 0.0
+            }
+          }
+        ]
+      }
+    }
+  }
+}

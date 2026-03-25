@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:dimension",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "doctorwho:cybus_wastelands",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": 0.6,
+            "altitude": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0
+          }
+        }
+      ]
+    }
+  }
+}

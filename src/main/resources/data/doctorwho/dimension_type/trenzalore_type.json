@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:dimension_type",
+  "name": "Trenzalore",
+  "element": {
+    "type": "minecraft:overworld",
+    "generator": {
+      "type": "minecraft:noise",
+      "settings": "minecraft:overworld",
+      "biome_source": {
+        "type": "minecraft:multi_noise",
+        "biomes": [
+          {
+            "biome": "doctorwho:trenzalore_battlefield",
+            "parameters": {
+              "temperature": 0.3,
+              "humidity": 0.7,
+              "altitude": 0.0,
+              "weirdness": 0.0,
+              "offset": 0.0
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:dimension",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "doctorwho:midnight_oasis",
+          "parameters": {
+            "temperature": 0.6,
+            "humidity": 0.4,
+            "altitude": 0.0,
+            "weirdness": 0.0,
+            "offset": 0.0
+          }
+        }
+      ]
+    }
+  }
+}
