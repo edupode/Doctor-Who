@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:dimension",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "doctorwho:gallifrey_plains",
+          "parameters": {
+            "temperature": 0.7,
+            "humidity": 0.5,
+            "altitude": 0.1,
+            "weirdness": 0.0,
+            "offset": 0.0
+          }
+        }
+      ]
+    }
+  }
+}

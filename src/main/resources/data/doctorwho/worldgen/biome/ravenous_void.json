@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:worldgen/biome",
+  "name": "Ravenous Void",
+  "precipitation": "none",
+  "temperature": 0.5,
+  "downfall": 0.0,
+  "effects": {
+    "sky_color": 2039808,
+    "fog_color": 1013194,
+    "water_color": 2039808,
+    "water_fog_color": 1013194,
+    "grass_color": 3722052,
+    "foliage_color": 3722052
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "doctorwho:weeping_angel",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:worldgen/biome",
+  "name": "Clom Mountains",
+  "precipitation": "rain",
+  "temperature": 0.4,
+  "downfall": 0.8,
+  "effects": {
+    "sky_color": 8135430,
+    "fog_color": 8135430,
+    "water_color": 8135430,
+    "water_fog_color": 8135430,
+    "grass_color": 5104025,
+    "foliage_color": 5104025
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:worldgen/biome",
+  "name": "Trenzalore Battlefield",
+  "precipitation": "rain",
+  "temperature": 0.3,
+  "downfall": 0.7,
+  "effects": {
+    "sky_color": 6842472,
+    "fog_color": 6842472,
+    "water_color": 3722052,
+    "water_fog_color": 6842472,
+    "grass_color": 3722052,
+    "foliage_color": 3722052
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "doctorwho:dalek",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "doctorwho:cyberman",
+        "weight": 8,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "doctorwho:weeping_angel",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "doctorwho:sontaran",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ]
+  }
+}

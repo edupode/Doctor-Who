@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:worldgen/biome",
+  "name": "Skaro Wastes",
+  "precipitation": "none",
+  "temperature": 1.0,
+  "downfall": 0.0,
+  "effects": {
+    "sky_color": 2039808,
+    "fog_color": 2039808,
+    "water_color": 2039808,
+    "water_fog_color": 2039808,
+    "grass_color": 3722052,
+    "foliage_color": 3722052
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "doctorwho:dalek",
+        "weight": 15,
+        "minCount": 2,
+        "maxCount": 4
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "doctorwho",
+  "version": "${version}",
+  "name": "Doctor Who",
+  "description": "Adds Gallifrey, the TARDIS, and Doctor Who universe planets, mobs, and items!",
+  "authors": ["Doctor Who Mod Team"],
+  "license": "MIT",
+  "environment": "*-server",
+  "entrypoints": {
+    "server": ["com.doctorwho.DoctorWhoMod"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "badges": ["fun"]
+    }
+  }
+}

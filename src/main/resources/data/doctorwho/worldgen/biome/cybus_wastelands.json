@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:worldgen/biome",
+  "name": "Cybus Wastelands",
+  "precipitation": "rain",
+  "temperature": 0.5,
+  "downfall": 0.6,
+  "effects": {
+    "sky_color": 8438335,
+    "fog_color": 8438335,
+    "water_color": 4147200,
+    "water_fog_color": 8438335,
+    "grass_color": 4147200,
+    "foliage_color": 4147200
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "doctorwho:cyberman",
+        "weight": 12,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ]
+  }
+}
